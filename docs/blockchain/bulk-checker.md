@@ -1,0 +1,3 @@
+﻿# Bulk Checker
+
+TODO.

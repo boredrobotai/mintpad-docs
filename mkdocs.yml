@@ -1,0 +1,98 @@
+site_name: MintPad Desktop Docs
+site_description: MintPad Desktop User Documentation
+site_url: ""
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  palette:
+    - scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+extra_css:
+  - assets/stylesheets/mintpad.css
+
+nav:
+  - Introduction: index.md
+
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - First Launch: getting-started/first-launch.md
+      - Create Your Vault: getting-started/create-your-vault.md
+      - Runtime Configuration: getting-started/runtime-configuration.md
+      - Shutdown: getting-started/shutdown.md
+  
+  - Operator Workflows:
+      - Check Allowlist and Mint: workflows/check-allowlist-and-mint.md
+      - Bulk Checker: workflows/bulk-checker.md
+      - Contract Mint: workflows/contract-mint.md
+      - Disperse & Consolidate: workflows/disperse-consolidate.md
+      - Calendar: workflows/calendar.md
+      - Runtime Settings: workflows/runtime-settings.md
+      - Top Toolbar: workflows/top-toolbar.md
+      - OpenSea Mint: workflows/opensea-mint.md
+
+  - Wallet:
+      - Vault Overview: wallet/vault-overview.md
+      - Wallet Generation: wallet/wallet-generation.md
+      - Wallet Import: wallet/wallet-import.md
+      - Backup & Export: wallet/backup-export.md
+      - Session Management: wallet/session-management.md
+
+  - Calendar:
+      - Overview: calendar/overview.md
+      - Drop Calendar: calendar/drop-calendar.md
+      - Mint Phases: calendar/mint-phases.md
+      - Eligible Wallets: calendar/eligible-wallets.md
+      - Notifications: calendar/notifications.md
+
+  - MARKET:
+      - Overview: market/overview.md
+      - Marketplace Records: market/marketplace-records.md
+      - Active Listings: market/active-listings.md
+      - MyBags: market/mybags.md
+
+  - Mint:
+      - Overview: mint/overview.md
+      - OpenSea: mint/opensea.md
+      - Scatter: mint/scatter.md
+      - Transient: mint/transient.md
+      - Blever: mint/blever.md
+      - Droply: mint/droply.md
+
+  - Contract Mint:
+      - Overview: contract-mint/overview.md
+      - ABI: contract-mint/abi.md
+      - Raw Calldata: contract-mint/raw-calldata.md
+      - Transaction Lifecycle: contract-mint/transaction-lifecycle.md
+
+  - Blockchain:
+      - RPC Manager: blockchain/rpc-manager.md
+      - Transaction Monitor: blockchain/transaction-monitor.md
+      - Disperse & Consolidate: blockchain/disperse-consolidate.md
+      - Bulk Checker: blockchain/bulk-checker.md
+
+  - Settings:
+      - Runtime Keys: settings/runtime-keys.md
+      - FAQ: settings/faq.md
