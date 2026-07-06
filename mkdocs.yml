@@ -36,13 +36,6 @@ extra_css:
 nav:
   - Introduction: index.md
 
-  - Getting Started:
-      - Installation: getting-started/installation.md
-      - First Launch: getting-started/first-launch.md
-      - Create Your Vault: getting-started/create-your-vault.md
-      - Runtime Configuration: getting-started/runtime-configuration.md
-      - Shutdown: getting-started/shutdown.md
-  
   - Operator Workflows:
       - Check Allowlist and Mint: workflows/check-allowlist-and-mint.md
       - Bulk Checker: workflows/bulk-checker.md
@@ -52,6 +45,13 @@ nav:
       - Runtime Settings: workflows/runtime-settings.md
       - Top Toolbar: workflows/top-toolbar.md
       - OpenSea Mint: workflows/opensea-mint.md
+
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - First Launch: getting-started/first-launch.md
+      - Create Your Vault: getting-started/create-your-vault.md
+      - Runtime Configuration: getting-started/runtime-configuration.md
+      - Shutdown: getting-started/shutdown.md
 
   - Wallet:
       - Vault Overview: wallet/vault-overview.md

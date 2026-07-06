@@ -1,12 +1,12 @@
 # MintPad Desktop
 
-## Piattaforma per Operazioni NFT
+## NFT Operations Platform
 
-MintPad è un'applicazione desktop **local-first** progettata per semplificare e centralizzare le operazioni NFT e blockchain all'interno di un unico ambiente di lavoro.
+MintPad is a local-first desktop application designed to simplify and centralize NFT and blockchain operations inside a single workspace.
 
-Invece di utilizzare siti web, estensioni del browser e strumenti separati, MintPad riunisce gestione dei wallet, attività marketplace, interazione con smart contract e strumenti blockchain in un'unica applicazione desktop orientata agli operatori.
+Instead of relying on multiple websites, browser extensions and separate tools, MintPad brings wallet management, marketplace activity, smart contract interaction and blockchain utilities together into one operator-focused desktop application.
 
-MintPad viene eseguito interamente sul computer dell'utente. L'applicazione avvia un backend locale ed espone un'interfaccia accessibile tramite browser, senza richiedere infrastrutture cloud o servizi di custodia centralizzata dei wallet.
+MintPad runs entirely on the user's computer. The application starts a local backend and exposes a browser-accessible interface without requiring cloud infrastructure or centralized wallet custody.
 
 ## MintPad Includes
 
